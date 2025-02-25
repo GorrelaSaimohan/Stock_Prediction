@@ -8,17 +8,13 @@ Store data in a structured pandas DataFrame.
 🔹 Key Fields: Date, Open, High, Low, Close, Volume.
 2️⃣ Exploratory Data Analysis (EDA)
 🔹 Objective: Analyze stock price trends and moving averages.
-🔹 Process:
-
-Plot closing prices over time to understand trends.
-Calculate 100-day & 200-day moving averages to smooth fluctuations.
+🔹 Process:  Plot closing prices over time to understand trends.
+             Calculate 100-day & 200-day moving averages to smooth fluctuations.
 Identify patterns in stock price movement.
 3️⃣ Data Preprocessing
 🔹 Objective: Prepare data for training the LSTM model.
-🔹 Process:
-
-Split data into 70% training and 30% testing sets.
-Apply MinMaxScaler to normalize stock prices between 0 and 1.
+🔹 Process:  Split data into 70% training and 30% testing sets.
+              Apply MinMaxScaler to normalize stock prices between 0 and 1.
 Create X_train & Y_train by using 100 past days as input and next stock price as output.
 4️⃣ Building the LSTM Model
 🔹 Objective: Design a deep learning model to predict future stock prices.
