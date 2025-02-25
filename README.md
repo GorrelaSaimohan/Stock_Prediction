@@ -56,10 +56,4 @@ Identify model accuracy and performance trends.
 🔹 Objective: Store and share project files on GitHub.
 🔹 Process:
 
-Initialize a Git repository.
-Add and commit all project files.
-Push the project to GitHub for future reference.
-🎯 Final Outcome
-✅ Successfully predicted stock prices using LSTM!
-✅ Visualized trends to understand price movement.
-✅ Pushed the project to GitHub for sharing and deployment.
+
